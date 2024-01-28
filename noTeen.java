@@ -10,6 +10,7 @@ public class noTeen{
         c=sc.nextInt();
         int x=noTeenSum(a,b,c);
         System.out.println("Sum="+x);
+        sc.close();
     }
     
     public static int noTeenSum(int a, int b,int c){

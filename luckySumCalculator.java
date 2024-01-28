@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class luckySumCalculator{
     public static void main(String args[]){
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the three Numbers(a,b,c):");
         int a,b,c;
         a=sc.nextInt();
@@ -10,6 +10,7 @@ public class luckySumCalculator{
         c=sc.nextInt();
         int x=luckySum(a,b,c);
         System.out.println("Sum="+x);
+        sc.close();
     }
     
     public static int luckySum(int a, int b,int c){
