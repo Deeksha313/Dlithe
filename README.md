@@ -1,2 +1,2 @@
 # Dlithe
-Technical Training
+Technical Training Assignments
