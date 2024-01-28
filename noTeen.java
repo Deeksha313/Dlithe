@@ -9,7 +9,7 @@ public class noTeen{
         b=sc.nextInt();
         c=sc.nextInt();
         int x=noTeenSum(a,b,c);
-        System.out.println("Sum="+x);
+        System.out.println("Sum = "+x);
         sc.close();
     }
     

@@ -17,7 +17,7 @@ public class Ticket{
     public static int greenTicket(int n,int m,int l){
         if(n==m && n==l)
             return 20;
-        else if (n==m||m==l||l==n)                        //((n==m&&n!=l)||(n!=m&&n==l))
+        else if (n==m||m==l||l==n)                        //or((n==m&&n!=l)||(n!=m&&n==l))
             return 10;
         else 
             return 0;
